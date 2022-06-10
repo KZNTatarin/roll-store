@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/Default.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Суши</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="content_wrapper">
+
+            <div class="products-list">
+                <div class="products-wrapper">
+
+                    <div class="product">
+                        <div class="card product-wrapper" data-id="01">
+
+                            <div class="product__img">
+                                <img class="product-img" src="img/Roll.png" alt="">
+                            </div>
+
+                            <h2 class="item-title">Филадельфия хит ролл</h2>
+                            <p data-items-in-box class="subtitle-text">6 шт.</p>
+
+                            <div class="details-wrapper">
+
+                                <div class="items counter-wrapper">
+                                    <div class="items__control" data-action="minus">-</div>
+                                    <div class="items__current" data-counter>1</div>
+                                    <div class="items__control" data-action="plus">+</div>
+                                </div>
+
+                                <div class="price">
+                                    <div class="price__weight">180г.</div>
+                                    <div class="price__currency">300 &#8381</div>
+                                </div>
+                            </div>
+
+                            <button data-cart type="button" class="btn btn-block btn-outline-warning">+ в корзину</button>
+
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <div class="card product-wrapper" data-id="02">
+
+                            <div class="product__img">
+                                <img class="product-img" src="img/Roll-2.jpg" alt="">
+                            </div>
+                            <h2 class="item-title">Роллы "Токио"</h2>
+                            <p data-items-in-box class="subtitle-text">8 шт.</p>
+
+                            <div class="details-wrapper">
+
+                                <div class="items counter-wrapper">
+                                    <div class="items__control" data-action="minus">-</div>
+                                    <div class="items__current" data-counter>1</div>
+                                    <div class="items__control" data-action="plus">+</div>
+                                </div>
+
+                                <div class="price">
+                                    <div class="price__weight">200г.</div>
+                                    <div class="price__currency">460 &#8381</div>
+                                </div>
+                            </div>
+
+                            <button data-cart type="button" class="btn btn-block btn-outline-warning">+ в корзину</button>
+
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <div class="card product-wrapper" data-id="03">
+
+                            <div class="product__img">
+                                <img class="product-img" src="img/Roll-3.jpg" alt="">
+                            </div>
+                            <h2 class="item-title">Роллы "Конфетти"</h2>
+                            <p data-items-in-box class="subtitle-text">8 шт.</p>
+
+                            <div class="details-wrapper">
+
+                                <div class="items counter-wrapper">
+                                    <div class="items__control" data-action="minus">-</div>
+                                    <div class="items__current" data-counter>1</div>
+                                    <div class="items__control" data-action="plus">+</div>
+                                </div>
+
+                                <div class="price">
+                                    <div class="price__weight">180г.</div>
+                                    <div class="price__currency">490 &#8381</div>
+                                </div>
+                            </div>
+
+                            <button data-cart type="button" class="btn btn-block btn-outline-warning">+ в корзину</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-list">
+                <div class="card-body">
+
+
+                    <h3 class="card-title">Ваш заказ</h3>
+                    <div data-cart-empty class="alert alert-secondary">
+                        Корзина пуста
+                    </div>
+
+                    <div class="cart-wrapper">
+                    </div>
+
+                    <div class="cart-total">
+                        <div data-cart-delivery class="cart-delivery none">
+                            <p><span class="h5">Доставка:</span> <span class="delivery-cost">250 ₽</span> </p>
+
+                            <p><span class="h5">Итого:</span> <span class="total-price">0</span> <span class="rouble">&#8381</span> </p>
+                        </div>
+                    </div>
+
+                    <div class="card-body border-top order-form none">
+                        <h4>Оформить заказ</h4>
+                        <form action="">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Ваш номер телефона">
+                            </div>
+                            <button type="submit" class="btn btn-primaty">Заказать</button>
+                        </form>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="js/calcCartPrice.js"></script>
+    <script src="js/toggleCartStatus.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/cart.js"></script>
+
+
+</body>
+
+</html>
